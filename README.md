@@ -1,0 +1,2 @@
+# topgg-voter
+ auto voter
