@@ -1,6 +1,10 @@
-from seleniumbase import SB
-from config import *
 import os
+try:
+    from seleniumbase import SB
+except:
+    os.system("pip install seleniumbase")
+    from seleniumbase import SB
+from config import *
 
 def login(driver, email, pw):
     try:
